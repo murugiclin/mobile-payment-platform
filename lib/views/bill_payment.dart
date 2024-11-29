@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
 import 'package:recharge_app_mega/models/get_operator_bill_model.dart';
 import 'package:recharge_app_mega/models/get_operator_list_model.dart';
 import 'package:recharge_app_mega/models/transaction_history_model.dart';
@@ -235,7 +234,7 @@ class _BillPaymentState extends State<BillPayment> {
                                                     color: color.primary,
                                                   ),
                                                 ),            SizedBox(height: 20.h),
-                                                bill.status==ApiResponseConst.fetchText?SizedBox():
+                                                bill.status==ApiResponseConst.fetchText?const SizedBox():
 
                                                 FilledButton(
                                                     onPressed: () {if(bill.status==ApiResponseConst.successText){

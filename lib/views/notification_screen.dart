@@ -3,7 +3,7 @@ import 'package:flutter_slidable/flutter_slidable.dart';
 import 'package:recharge_app_mega/views/views.dart';
 
 class NotificationPage extends StatefulWidget {
-  const NotificationPage({Key? key}) : super(key: key);
+  const NotificationPage({super.key});
 
   @override
   _NotificationPageState createState() => _NotificationPageState();
@@ -11,12 +11,12 @@ class NotificationPage extends StatefulWidget {
 
 class _NotificationPageState extends State<NotificationPage> {
      final List _notifications = [
-    'You have received Rs. 500',
-    'Your payment of Rs. 1000 has been processed',
-    'Your transaction of Rs. 2000 has been successful',
-    'You have received Rs. 1000',
-    'Your payment of Rs. 500 has been processed',
-    'Your transaction of Rs. 3000 has been successful',
+    'You have received Ksh. 500',
+    'Your payment of Ksh. 1000 has been processed',
+    'Your transaction of Ksh. 2000 has been successful',
+    'You have received Ksh. 1000',
+    'Your payment of ksH. 500 has been processed',
+    'Your transaction of Ksh. 3000 has been successful',
 
   ];
 

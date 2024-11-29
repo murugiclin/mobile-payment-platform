@@ -3,7 +3,7 @@ import 'package:recharge_app_mega/views/views.dart';
 import 'package:upi_payment_qrcode_generator/upi_payment_qrcode_generator.dart';
 
 class MyQRScreen extends StatefulWidget {
-  const MyQRScreen({Key? key}) : super(key: key);
+  const MyQRScreen({super.key});
 
   @override
   State<MyQRScreen> createState() => _MyQRScreenState();

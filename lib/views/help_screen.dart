@@ -3,7 +3,7 @@ import 'package:intl/intl.dart';
 import 'package:recharge_app_mega/views/views.dart';
 
 class HelpPage extends StatefulWidget {
-  const HelpPage({Key? key}) : super(key: key);
+  const HelpPage({super.key});
 
   @override
   State<HelpPage> createState() => _HelpPageState();

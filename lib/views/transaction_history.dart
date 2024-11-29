@@ -3,7 +3,7 @@ import 'package:recharge_app_mega/models/transaction_history_model.dart';
 import 'package:recharge_app_mega/views/views.dart';
 
 class Transactions extends StatefulWidget {
-  const Transactions({Key? key}) : super(key: key);
+  const Transactions({super.key});
 
   @override
   State<Transactions> createState() => _TransactionsState();

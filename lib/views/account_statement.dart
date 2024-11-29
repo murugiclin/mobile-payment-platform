@@ -1,10 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 
-import 'views.dart';
 
 class AccountStatement extends StatefulWidget {
-  const AccountStatement({Key? key}) : super(key: key);
+  const AccountStatement({super.key});
 
   @override
   State<AccountStatement> createState() => _AccountStatementState();

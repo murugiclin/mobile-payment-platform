@@ -5,7 +5,7 @@ import 'package:recharge_app_mega/views/views.dart';
 import 'bill_payment.dart';
 
 class BillPaymentItems extends StatefulWidget {
-  const BillPaymentItems({Key? key}) : super(key: key);
+  const BillPaymentItems({super.key});
 
   @override
   State<BillPaymentItems> createState() => _BillPaymentItemsState();

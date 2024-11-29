@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:recharge_app_mega/views/views.dart';
 
 class BrandLogo extends StatefulWidget {
-  const BrandLogo({Key? key}) : super(key: key);
+  const BrandLogo({super.key});
 
   @override
   State<BrandLogo> createState() => _BrandLogoState();

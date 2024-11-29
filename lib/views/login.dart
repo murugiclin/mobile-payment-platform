@@ -11,7 +11,7 @@ class LoginPage extends StatefulWidget {
 }
 
 class LoginPageState extends State<LoginPage> {
-  bool _hidePassword = true;
+  final bool _hidePassword = true;
   final _formKey = GlobalKey<FormState>();
   RegExp numberRegExp = RegExp(r'^(?:[+][91])?\d{10,12}$');
 
@@ -193,7 +193,7 @@ class LoginPageState extends State<LoginPage> {
                                     obscureText:
                                         obscureToggle.passwordVisibility,
                                     decoration: InputDecoration(
-                                        prefixIcon: Icon(
+                                        prefixIcon: const Icon(
                                           Icons.lock,
                                         ),
                                         hintText: 'Password',

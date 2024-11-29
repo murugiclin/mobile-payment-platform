@@ -4,7 +4,7 @@ import 'package:recharge_app_mega/models/bank_list_model.dart';
 import 'package:recharge_app_mega/views/views.dart';
 
 class WalletTopUp extends StatefulWidget {
-  const WalletTopUp({Key? key}) : super(key: key);
+  const WalletTopUp({super.key});
 
   @override
   State<WalletTopUp> createState() => _WalletTopUpState();
@@ -271,10 +271,6 @@ class _WalletTopUpState extends State<WalletTopUp> {
                                                                       lastDate:
                                                                           DateTime(
                                                                               2100));
-                                                                  if (newDate ==
-                                                                      null) {
-                                                                    return;
-                                                                  }
                                                                   setState(() {
                                                                     _dateTime =
                                                                         newDate;

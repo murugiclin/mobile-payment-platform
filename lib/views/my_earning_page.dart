@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:recharge_app_mega/views/views.dart';
 
 class MyEarningsPage extends StatefulWidget {
-  const MyEarningsPage({Key? key}) : super(key: key);
+  const MyEarningsPage({super.key});
 
   @override
   State<MyEarningsPage> createState() => _MyEarningsPageState();

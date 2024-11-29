@@ -5,7 +5,7 @@ import 'package:recharge_app_mega/networking/api_request.dart';
 import 'package:recharge_app_mega/views/views.dart';
 
 class TicketSupport extends StatefulWidget {
-  const TicketSupport({Key? key}) : super(key: key);
+  const TicketSupport({super.key});
 
   @override
   State<TicketSupport> createState() => _TicketSupportState();

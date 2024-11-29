@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:recharge_app_mega/views/views.dart';
 
 class ForgotPass extends StatefulWidget {
-  const ForgotPass({Key? key}) : super(key: key);
+  const ForgotPass({super.key});
 
   @override
   State<ForgotPass> createState() => _ForgotPassState();
